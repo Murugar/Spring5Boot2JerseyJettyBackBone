@@ -1,0 +1,4 @@
+com/iqmsoft/domain/Note.class
+com/iqmsoft/NotesApplication.class
+com/iqmsoft/JerseyConfig.class
+com/iqmsoft/api/NoteResource.class

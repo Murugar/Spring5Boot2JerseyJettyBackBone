@@ -5,6 +5,8 @@ import org.springframework.context.annotation.Configuration;
 
 import com.iqmsoft.api.NoteResource;
 
+
+
 import javax.ws.rs.ApplicationPath;
 
 @Configuration
@@ -12,6 +14,7 @@ import javax.ws.rs.ApplicationPath;
 public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
+    	
         register(NoteResource.class);
     }
 }
